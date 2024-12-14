@@ -6,9 +6,9 @@ public class ThirdHighestNumber2 {
         Arrays.sort(arr1);
         System.out.println("sorted array are ="+Arrays.toString(arr1));
 
-        if(arr1.length>=2)
+        if(arr1.length>=3)
         {
-            System.out.println(arr1[arr1.length-2]);
+            System.out.println(arr1[arr1.length-3]);
         }
         else{
             System.out.println("not enough elemmet ");
